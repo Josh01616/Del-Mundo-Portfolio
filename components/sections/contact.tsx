@@ -29,20 +29,13 @@ export function Contact() {
     setSubmitStatus("idle")
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      })
-
-      if (response.ok) {
-        setSubmitStatus("success")
-        setFormData({ name: "", email: "", budget: "", message: "" })
-      } else {
-        setSubmitStatus("error")
-      }
+      const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`)
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\nBudget/Role: ${formData.budget || "Not specified"}\n\nMessage:\n${formData.message}`
+      )
+      window.location.href = `mailto:joshmatthew.delmundo.16@gmail.com?subject=${subject}&body=${body}`
+      setSubmitStatus("success")
+      setFormData({ name: "", email: "", budget: "", message: "" })
     } catch (error) {
       setSubmitStatus("error")
     } finally {
