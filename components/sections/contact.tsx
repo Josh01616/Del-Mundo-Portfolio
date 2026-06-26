@@ -125,7 +125,7 @@ export function Contact() {
             <div className="pt-6 border-t border-border/50">
               <Button
                 variant="outline"
-                className="w-full sm:w-auto border-border/50 hover:border-primary/50 hover:glow-soft transition-all duration-300 bg-transparent"
+                className="w-full sm:w-auto border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground hover:glow transition-all duration-300 bg-primary/5"
                 asChild
               >
                 <Link href="/cv.pdf" target="_blank">

@@ -50,15 +50,22 @@ export function Hero() {
               </h1>
             </motion.div>
 
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-lg sm:text-xl text-muted-foreground mb-8 text-pretty max-w-2xl"
+              className="space-y-4 mb-8 max-w-2xl text-lg sm:text-xl text-muted-foreground text-pretty"
             >
-              CS undergraduate who builds business platforms, AI applications, and computer vision tools for real
-              stakeholders — from engineering firm CEOs to clinical therapists.
-            </motion.p>
+              <p>
+                I build technology solutions that solve real-world operational challenges. My experience spans full-stack business systems, AI-powered healthcare applications, quality assurance, and digital operations across engineering, healthcare, education, and marketing environments.
+              </p>
+              <p>
+                From developing business management platforms for engineering firms to building computer vision-based rehabilitation systems validated by healthcare professionals, I focus on transforming complex requirements into practical, scalable solutions. I have collaborated with executive stakeholders, healthcare practitioners, multidisciplinary development teams, and marketing professionals to deliver software and digital solutions that create measurable impact.
+              </p>
+              <p>
+                My technical expertise includes Next.js, TypeScript, Python, JavaScript, Supabase, OpenCV, and modern software development practices, with a strong interest in building systems that improve workflows, decision-making, and user experiences.
+              </p>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -120,7 +127,7 @@ export function Hero() {
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com/in/joshdelmundo"
+                href="https://www.linkedin.com/in/del-mundo-josh-720689326/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground hover:glow-soft transition-all duration-300 p-2 rounded-full"

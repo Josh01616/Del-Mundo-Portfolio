@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { ThemeToggle } from "@/components/theme-toggle"
+
 import { Button } from "@/components/ui/button"
 import { Menu, X, Download } from "lucide-react"
 
@@ -56,7 +56,7 @@ export function Navigation() {
             <Button
               variant="outline"
               size="sm"
-              className="border-border/50 hover:border-primary/50 hover:glow-soft transition-all duration-300 bg-transparent"
+              className="border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground hover:glow transition-all duration-300 bg-primary/5"
               asChild
             >
               <Link href="/cv.pdf" target="_blank">
@@ -64,12 +64,10 @@ export function Navigation() {
                 CV
               </Link>
             </Button>
-            <ThemeToggle />
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
             <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)} className="h-9 w-9">
               {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
@@ -94,7 +92,7 @@ export function Navigation() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="w-full border-border/50 hover:border-primary/50 bg-transparent"
+                  className="w-full border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground hover:glow transition-all duration-300 bg-primary/5"
                   asChild
                 >
                   <Link href="/cv.pdf" target="_blank">
