@@ -42,10 +42,10 @@ export function About() {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-relaxed text-lg">
               <p>
-                My work spans the full stack: from architecting Supabase-backed business platforms to building Python
-                computer vision pipelines validated by licensed physical therapists. I've collaborated directly with
-                CEOs, Vice CEOs, Senior Engineers, and clinical professionals to turn complex requirements into working
-                software.
+                I build technology solutions that solve real-world operational challenges. My experience spans full-stack business systems, AI-powered healthcare applications, operational platforms, and quality assurance processes across engineering, healthcare, education, and marketing environments.
+              </p>
+              <p>
+                Working with executive stakeholders, healthcare professionals, and cross-functional teams, I transform complex requirements into practical solutions using Next.js, TypeScript, Python, JavaScript, Supabase, OpenCV, and modern software development practices. My focus is creating systems that improve workflows, decision-making, and user experiences.
               </p>
             </div>
 

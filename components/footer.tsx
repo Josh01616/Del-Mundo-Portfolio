@@ -70,7 +70,7 @@ export function Footer() {
             <h4 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wide">Connect</h4>
             <div className="flex items-center space-x-4 mb-4">
               <Link
-                href="https://github.com/joshdelmundo"
+                href="https://github.com/Josh01616"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground hover:glow-soft transition-all duration-300 p-2 rounded-full"
@@ -79,7 +79,7 @@ export function Footer() {
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com/in/joshdelmundo"
+                href="https://www.linkedin.com/in/del-mundo-josh-720689326/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground hover:glow-soft transition-all duration-300 p-2 rounded-full"

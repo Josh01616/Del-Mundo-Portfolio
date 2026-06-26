@@ -113,7 +113,7 @@ export function Hero() {
               className="flex items-center space-x-6"
             >
               <Link
-                href="https://github.com/joshdelmundo"
+                href="https://github.com/Josh01616"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground hover:glow-soft transition-all duration-300 p-2 rounded-full"
