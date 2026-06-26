@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-8 sm:px-12 lg:px-16 relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-8 sm:px-12 lg:px-16 pt-28 lg:pt-0 relative overflow-hidden"
     >
       {/* Background glow effects */}
       <div className="absolute inset-0 overflow-hidden">
