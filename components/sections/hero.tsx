@@ -56,10 +56,10 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-4 mb-8 max-w-2xl text-lg sm:text-xl text-muted-foreground text-justify"
             >
-             
               <p>
-                Collaborating directly with executive stakeholders and multidisciplinary teams, I deliver digital solutions that create measurable impact. My technical expertise spans Next.js, TypeScript, Python, Supabase, and OpenCV, driven by a strong commitment to building systems that improve workflows, decision-making, and user experiences.
+                Remote professional who builds business platforms, AI applications, and computer vision tools for real stakeholders - from engineering firm CEOs to clinical therapists.
               </p>
+
             </motion.div>
 
             <motion.div

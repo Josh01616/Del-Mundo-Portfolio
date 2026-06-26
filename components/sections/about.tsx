@@ -42,11 +42,6 @@ export function About() {
             </h2>
             <div className="space-y-5 text-muted-foreground leading-relaxed text-lg">
               <p>
-                I'm a Computer Science undergraduate from the Philippines who doesn't just write code — I solve
-                operational problems. I've built business management systems for engineering firms, developed AI-powered
-                tools for healthcare, and created platforms that real people rely on daily.
-              </p>
-              <p>
                 My work spans the full stack: from architecting Supabase-backed business platforms to building Python
                 computer vision pipelines validated by licensed physical therapists. I've collaborated directly with
                 CEOs, Vice CEOs, Senior Engineers, and clinical professionals to turn complex requirements into working
