@@ -56,9 +56,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-4 mb-8 max-w-2xl text-lg sm:text-xl text-muted-foreground text-justify"
             >
-              <p>
-                I build technology solutions that solve real-world operational challenges across engineering, healthcare, education, and marketing. From developing full-stack management platforms for engineering firms to building computer vision-based rehabilitation systems validated by medical professionals, I focus on transforming complex requirements into practical, scalable software.
-              </p>
+             
               <p>
                 Collaborating directly with executive stakeholders and multidisciplinary teams, I deliver digital solutions that create measurable impact. My technical expertise spans Next.js, TypeScript, Python, Supabase, and OpenCV, driven by a strong commitment to building systems that improve workflows, decision-making, and user experiences.
               </p>
