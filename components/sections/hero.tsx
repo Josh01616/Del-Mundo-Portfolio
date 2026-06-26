@@ -54,16 +54,13 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="space-y-4 mb-8 max-w-2xl text-lg sm:text-xl text-muted-foreground text-pretty"
+              className="space-y-4 mb-8 max-w-2xl text-lg sm:text-xl text-muted-foreground text-justify"
             >
               <p>
-                I build technology solutions that solve real-world operational challenges. My experience spans full-stack business systems, AI-powered healthcare applications, quality assurance, and digital operations across engineering, healthcare, education, and marketing environments.
+                I build technology solutions that solve real-world operational challenges across engineering, healthcare, education, and marketing. From developing full-stack management platforms for engineering firms to building computer vision-based rehabilitation systems validated by medical professionals, I focus on transforming complex requirements into practical, scalable software.
               </p>
               <p>
-                From developing business management platforms for engineering firms to building computer vision-based rehabilitation systems validated by healthcare professionals, I focus on transforming complex requirements into practical, scalable solutions. I have collaborated with executive stakeholders, healthcare practitioners, multidisciplinary development teams, and marketing professionals to deliver software and digital solutions that create measurable impact.
-              </p>
-              <p>
-                My technical expertise includes Next.js, TypeScript, Python, JavaScript, Supabase, OpenCV, and modern software development practices, with a strong interest in building systems that improve workflows, decision-making, and user experiences.
+                Collaborating directly with executive stakeholders and multidisciplinary teams, I deliver digital solutions that create measurable impact. My technical expertise spans Next.js, TypeScript, Python, Supabase, and OpenCV, driven by a strong commitment to building systems that improve workflows, decision-making, and user experiences.
               </p>
             </motion.div>
 
